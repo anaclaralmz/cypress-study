@@ -14,10 +14,12 @@ Os Testes automatizados ajudam a garantir a qualidade de softwares, além de red
 # 2.1 Desvantagens
 - É voltado mais para aplicações web, e não é adequado para testes de aplicativos móveis ou desktop
 - Limitação em relação a navegadores como o safari
-- Requer conhecimento de JavaScript: ****Pode ser uma desvantagem para equipes com pouca experiência em JavaScript.
+- Requer conhecimento de JavaScript: Pode ser uma desvantagem para equipes com pouca experiência em JavaScript.
 # 3. Arquitetura
 A imagem a seguir descreve com clareza a arquitetura e funcionamento da ferramenta:
-![arquitetura][./assets/arq.png]
+
+![arquitetura](/assets/arq.png)
+
 Além disso, O Cypress contem 3 componentes principais em sua arquitetura:
 
 - **Runner**: Interface gráfica onde os testes são escritos, executados e depurados.
