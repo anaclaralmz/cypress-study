@@ -27,7 +27,20 @@ Além disso, O Cypress contem 3 componentes principais em sua arquitetura:
 - **Dashboard**: Fornece insights e informações sobre a execução dos testes em diferentes ambientes.
 
 # 4. Seletores de elementos
+Os seletores de elementosservem para localizar e interagir com elementos HTML dentro da página durante a execução de testes, e permitem que os testes simulem interações do usuário, como clicar em botões.
+
+Exitem tipos de seletores como CSS, XPath ou por atributos específicos. Nesse sentido, alguns exemplos comuns incluem:
+
+- cy.get('selector'): Seleciona um elemento usando um seletor CSS.
+- cy.contains('text'): Seleciona um elemento que contém o texto especificado.
+- cy.xpath('xpath-selector'): Seleciona um elemento usando XPath.
 # 5. Comandos e asserções
+Uma das vantagens do Cypress é a grande variedade de comandos prontos e asserções para interagir com elementos e verificar o estado da aplicação. Isso facilita muito a realizaçãoo dos testes, visto que traz lógicas prontas para funções essenciais, de forma compreensível e simples.
+
+Dessa forma, alaguns exemplos de comandos e asserções são:
+- cy.click(): Simula um clique em um elemento.
+- cy.type(): Insere texto em um campo de entrada.
+- cy.get().should('have.text', 'expected text'): Verifica se um elemento tem o texto esperado.
 # 6. Descrição das etapas de preparação de um testes de interface, execução e verificação
 ### Preparação:
 
@@ -49,3 +62,4 @@ ou
 2. Analise os resultados e depure qualquer problema encontrado.
 3. Refatore os testes conforme necessário.
 # 7. Como estruturar testes de forma eficiente no Cypress?
+Afim de aproveitar ao máximo as funcionalidades oferecidas pelo Cypress, é importante uma organização dos testes em pastas e arquivos de acordo com a funcionalidade, a utilização de fixtures para dados de teste reutilizáveis e a reutilização de código através de comandos personalizados. Além de manter os testes simples, focados e independentes entre si.
