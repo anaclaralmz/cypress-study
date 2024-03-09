@@ -26,7 +26,26 @@ Além disso, O Cypress contem 3 componentes principais em sua arquitetura:
 - **Automation Engine**: Controla o navegador e executa os testes.
 - **Dashboard**: Fornece insights e informações sobre a execução dos testes em diferentes ambientes.
 
-# 4. Seletores de elementos no Cypress.
-# 5. Comandos e asserções no Cypress.
-# 6. Descrição das etapas de preparação de um testes de interface, execução e verificação no Cypress.
+# 4. Seletores de elementos
+# 5. Comandos e asserções
+# 6. Descrição das etapas de preparação de um testes de interface, execução e verificação
+### Preparação:
+
+1. Instale o Cypress e configure seu ambiente.
+-      npm install cypress --save-dev
+3. Escreva os testes usando a sintaxe do Cypress.
+4. Organize os testes em arquivos de especificação.
+
+### Execução:
+1. Inicie o Cypress Runner.
+2. Selecione o teste a ser executado.
+3. Execute o teste e observe os resultados em tempo real.
+-      ./node_modules/.bin/cypress open 
+ou
+-      npx cypress open
+
+### Verificação:
+1. Verifique se todos os testes passaram.
+2. Analise os resultados e depure qualquer problema encontrado.
+3. Refatore os testes conforme necessário.
 # 7. Como estruturar testes de forma eficiente no Cypress?
